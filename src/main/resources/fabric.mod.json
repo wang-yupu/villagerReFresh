@@ -3,15 +3,15 @@
 	"id": "villagerrefresh",
 	"version": "${version}",
 	"name": "villagerReFresh",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "自动刷新村民交易",
 	"authors": [
-		"Me!"
+		"wangyupu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/wang-yupu/VillagerReFresh",
+		"sources": "https://github.com/wang-yupu/VillagerReFresh"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/villagerrefresh/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -30,5 +30,6 @@
 	},
 	"suggests": {
 		"another-mod": "*"
-	}
+	},
+	"accessWidener": "vrrf.accesswidener"
 }
